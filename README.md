@@ -9,5 +9,5 @@ Dicas de Windows para solução de problemas.
 
 É necessario entrar no terminal no modo `admin`:
 ```sh
-Set-ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
